@@ -1,0 +1,135 @@
+html {
+  margin: 50px;
+}
+.block1 {
+  width: 200px;
+  height: 150px;
+  background: #808080;
+  border: 2px solid #f00;
+  overflow: hidden;
+  cursor: pointer;
+}
+.block1 li {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 50px;
+}
+.slider1 {
+  position: relative;
+  top: 0;
+  -webkit-animation: example linear 2s infinite;
+          animation: example linear 2s infinite;
+}
+.slider1.paused {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.block2 {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  bottom: 154px;
+  left: 203px;
+  background: #808080;
+  border: 2px solid #008000;
+  overflow: hidden;
+  cursor: pointer;
+}
+.block2 li {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 50px;
+}
+.slider2 {
+  position: relative;
+  top: 0;
+  -webkit-animation: example linear 2s infinite;
+          animation: example linear 2s infinite;
+}
+.slider2.paused {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.block3 {
+  width: 200px;
+  height: 150px;
+  position: relative;
+  bottom: 308px;
+  left: 406px;
+  background: #808080;
+  border: 2px solid #00f;
+  overflow: hidden;
+  cursor: pointer;
+}
+.block3 li {
+  list-style: none;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  line-height: 50px;
+}
+.slider3 {
+  position: relative;
+  top: 0;
+  -webkit-animation: example linear 2s infinite;
+          animation: example linear 2s infinite;
+}
+.slider3.paused {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+@-webkit-keyframes example {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -600px;
+  }
+}
+@keyframes example {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -600px;
+  }
+}
+@-webkit-keyframes example {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -600px;
+  }
+}
+@keyframes example {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -600px;
+  }
+}
+@-webkit-keyframes example {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -600px;
+  }
+}
+@keyframes example {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -600px;
+  }
+}

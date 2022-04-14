@@ -1,0 +1,92 @@
+html
+	margin 50px
+
+.block1
+	width 200px
+	height 150px
+	background grey
+	border 2px solid red
+	overflow hidden
+	cursor pointer
+	li
+		list-style none
+		text-align center
+		font-weight bold
+		text-transform uppercase
+		letter-spacing 0.05em
+		line-height 50px
+		
+.slider1
+	position relative
+	top 0
+	animation example linear 2s infinite
+	&.paused
+		animation-play-state paused
+		
+@keyframes example
+	0%
+		top 0
+	100%
+		top -600px
+
+.block2
+	width 200px
+	height 150px
+	position relative
+	bottom 154px
+	left 203px
+	background grey
+	border 2px solid green
+	overflow hidden
+	cursor pointer
+	li
+		list-style none
+		text-align center
+		font-weight bold
+		text-transform uppercase
+		letter-spacing 0.05em
+		line-height 50px
+		
+.slider2
+	position relative
+	top 0
+	animation example linear 2s infinite
+	&.paused
+			animation-play-state paused
+	
+@keyframes example
+	0%
+		top 0
+	100%
+		top -600px
+
+.block3
+	width 200px
+	height 150px
+	position relative
+	bottom 308px
+	left 406px
+	background grey
+	border 2px solid blue
+	overflow hidden
+	cursor pointer
+	li
+		list-style none
+		text-align center
+		font-weight bold
+		text-transform uppercase
+		letter-spacing 0.05em
+		line-height 50px
+		
+.slider3
+	position relative
+	top 0
+	animation example linear 2s infinite
+	&.paused
+		animation-play-state paused
+	
+@keyframes example
+	0%
+		top 0
+	100%
+		top -600px
